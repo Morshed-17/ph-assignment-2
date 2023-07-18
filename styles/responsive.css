@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
     /* root */
     *{
-        font-size: 12px;
+        font-size: 13px;
     }
     /* root */
     /* body styles */
@@ -34,6 +34,9 @@
         flex-direction: column-reverse;
         gap: 24px;
 
+    }
+    .banner-img {
+        margin-bottom: 50px;
     }
     /* banner section ends */
 }
@@ -75,6 +78,9 @@ body {
     flex-direction: column-reverse;
     gap: 24px;
 
+}
+.banner-img {
+    margin-bottom: 50px;
 }
 /* banner section ends */
 
