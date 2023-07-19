@@ -12,6 +12,13 @@
 /* root ends */
 
 /* Shared styles */
+.section-title h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.section-title p {
+  line-height: 1.8rem;
+}
 .color-pink {
   color: #ff42a5;
   font-size: 1em;
@@ -176,6 +183,38 @@ li {
   width: 100%;
   margin-bottom: 24px;
 } 
-
-
 /* online games ends */
+
+/* play-instantly starts */
+.play-instantly {
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-instantly .section-title {
+  text-align: right;
+  max-width: 341px;
+  flex-basis: 49%;
+  margin-left: auto;
+
+}
+.play-instantly-img {
+  flex-basis: 49%;
+  text-align: right;
+  margin-left: auto;
+  position: relative;
+}
+.play-instantly .section-title h2 {
+  line-height: 3.75rem;
+  margin-bottom: 24px;
+}
+.play-instantly-img img {
+  width: 80%;
+}
+.play-instantly-img .image-badge {
+  width: 40%;
+  position: absolute;
+  right: 412px;
+  top: 324px;
+}
+/* play-instantly ends */
