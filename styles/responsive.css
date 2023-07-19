@@ -1,89 +1,102 @@
+/* mobile devices----------------------------- */
 @media screen and (max-width: 576px) {
-    /* root */
-    *{
-        font-size: 13px;
-    }
-    /* root */
-    /* body styles */
-    body {
-        margin: 0 20px ;
-    }
-    /* header section starts */
-    .nav-container {
-        flex-direction: column;
-        gap: 60px;
-    }
-    #nav {
-        box-shadow: none;
-    }
-    .nav-container   ul {
-        display: flex;
-        list-style: none;
-        align-items: center;
-        gap: 36px;
-        flex-direction: column;
-    }
-    /* header section ends */
-
-    /* banner section starts */
-    .banner-section {
-        background-position: bottom left;
-        background-size: contain;
-    }
-    .banner-section-container {
-        flex-direction: column-reverse;
-        gap: 24px;
-
-    }
-    .banner-img {
-        margin-bottom: 50px;
-    }
-    /* banner section ends */
-}
-
-
-@media screen and (min-width:576px) and (max-width: 920px) {
-
- /* root */
-/* root */
-
-/* body styles */
-body {
-    margin: 0 20px ;
-}
-/* body styles */
- /* header section starts */
- .nav-container {
+  /* root */
+  * {
+    font-size: 11px;
+  }
+  /* root */
+  /* body styles */
+  body {
+    margin: 0 20px;
+  }
+ 
+  /* header section starts */
+  .nav-container {
     flex-direction: column;
     gap: 60px;
-}
-#nav {
+  }
+  #nav {
     box-shadow: none;
-}
-.nav-container   ul {
+  }
+  .nav-container ul {
     display: flex;
     list-style: none;
     align-items: center;
     gap: 36px;
     flex-direction: column;
+  }
+  /* header section ends */
+
+  /* banner section starts */
+  .banner-section {
+    background-position: bottom left;
+    background-size: contain;
+  }
+  .banner-section-container {
+    flex-direction: column-reverse;
+    gap: 24px;
+  }
+  .banner-img {
+    margin-bottom: 50px;
+  }
+  /* banner section ends */
+  /* online games starts */
+  
+  .online-games-card .games-card {
+    flex-basis: 100%;
+    margin-bottom: 31px;
+  }
+  .online-games-card .games-card p {
+    text-align: center;
 }
-/* header section ends */
-/* banner section starts */
-.banner-section {
+  /* online games ends */
+}
+
+/* tablet devices -------------------------------------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 920px) {
+  /* root */
+  /* root */
+
+  /* body styles */
+  body {
+    margin: 0 20px;
+  }
+  /* body styles */
+  /* header section starts */
+  .nav-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+  #nav {
+    box-shadow: none;
+  }
+  .nav-container ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 36px;
+    flex-direction: column;
+  }
+  /* header section ends */
+  /* banner section starts */
+  .banner-section {
     background-position: bottom left;
     background-size: contain;
     width: 100%;
-}
-.banner-section-container {
+  }
+  .banner-section-container {
     flex-direction: column-reverse;
     gap: 24px;
-
-}
-.banner-img {
+  }
+  .banner-img {
     margin-bottom: 50px;
-}
-/* banner section ends */
-
-
-
+  }
+  /* banner section ends */
+  /* online games starts */
+  .online-games-card .games-card {
+    flex-basis: 49%;
+    margin-bottom: 32px;
+  }
+  /* online games ends */
 }

@@ -16,6 +16,10 @@
   color: #ff42a5;
   font-size: 1em;
 }
+main {
+  max-width: 1440px;
+  margin: auto;
+}
 h2 {
   color: #0b0223;
 }
@@ -37,7 +41,7 @@ li {
   color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
-  background-color: #4EC5F7;
+  background-color: #4ec5f7;
   border: 0;
   padding: 21px 40px;
   border-radius: 48px;
@@ -92,10 +96,10 @@ li {
 
 /* banner section starts */
 .banner-section {
-    background: url(../images/Group\ 14.png);
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-size: contain;
+  background: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
 }
 .banner-section-container {
   max-width: 1440px;
@@ -105,8 +109,9 @@ li {
   align-items: center;
 }
 
-.banner-section-container .banner-img, .banner-content {
-    flex-basis: 50%;
+.banner-section-container .banner-img,
+.banner-content {
+  flex-basis: 50%;
 }
 .banner-img {
   width: 100%;
@@ -115,7 +120,6 @@ li {
   font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
-  
 }
 .banner-content h1 {
   font-size: 5.9rem;
@@ -133,11 +137,45 @@ li {
   margin-bottom: 17px;
 }
 .banner-content div {
-    display: flex;
-    margin-top: 41px;
-    gap: 24px;
+  display: flex;
+  margin-top: 41px;
+  gap: 24px;
 }
 
 /* banner section ends */
 
 /* header styles ends */
+
+/* online games section */
+.online-games {
+  margin: 120px 0;
+  text-align: center;
+} 
+.online-games h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.online-games .section-title p {
+  margin-bottom: 3rem;
+}
+
+.online-games-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.online-games-card .games-card{
+  flex-basis: 24%;
+}
+.online-games-card .games-card p {
+  text-align: left;
+}
+.online-games-card .games-card img {
+  width: 100%;
+  margin-bottom: 24px;
+} 
+
+
+/* online games ends */
