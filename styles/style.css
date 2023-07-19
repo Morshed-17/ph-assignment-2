@@ -220,15 +220,18 @@ li {
 
 /* games category buttons */
 .category {
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   padding: 120px 0;
-  
 }
 .cetegory-buttons {
   display: flex;
   flex-wrap: wrap;
-justify-content: center; 
-gap: 27px;
+  justify-content: center;
+  gap: 27px;
 }
 .btn-category {
   flex-basis: 17%;
@@ -242,7 +245,14 @@ gap: 27px;
   font-size: 1.25rem;
   align-items: center;
   font-weight: 600;
+  cursor: pointer;
+  border-width: 0px;
+  transition: border-width 0.6s linear;
+  transition: color .5s ;
 }
-.btn-category img {
+.btn-category:hover {
+ color: #ff42a5;
+  border: 1px solid #ff42a5;
+
 }
 /* games category buttons ends */
