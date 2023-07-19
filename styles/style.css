@@ -178,6 +178,11 @@ li {
 }
 .watch-now i {
   font-size: 55px;
+  transition: all 0.5s;
+  
+}
+.watch-now i:hover {
+  filter: brightness(0.5);
   
 }
 .watch-now h3 {
@@ -196,6 +201,7 @@ li {
 .games-card:hover img{
   filter: brightness(0.3) blur(1px);
   cursor: pointer;
+  transition: all 0.3s;
 }
 .games-card:hover .watch-now {
   visibility: visible;
