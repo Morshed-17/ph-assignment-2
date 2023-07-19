@@ -6,11 +6,14 @@
   }
   /* root */
   /* body styles */
-  body {
-    margin: 0 20px;
+  .max-width {
+    padding: 0 20px;
   }
  
   /* header section starts */
+  header {
+    padding: 0 20px;
+  }
   .nav-container {
     flex-direction: column;
     gap: 60px;
@@ -69,6 +72,23 @@
   right: 230px;
 }
   /* play instanly ends */
+
+  /* catetory starts  */
+  .category {
+    padding: 60px 0;
+  }
+  .cetegory-buttons {
+    gap: 5px;
+}
+.btn-category img {
+  width: 30%;
+}
+.btn-category {
+  flex-basis: 32%;
+  font-size: .8rem;
+  margin-bottom: 2rem;
+}
+  /* catetory ends */
 }
 
 /* tablet devices -------------------------------------------------- */
@@ -135,4 +155,17 @@
   margin-bottom: 24px;
 }
   /* play instanly ends */
+    /* catetory starts  */
+    .cetegory-buttons {
+      gap: 5px;
+  }
+  .btn-category img {
+    width: 30%;
+  }
+  .btn-category {
+    flex-basis: 32%;
+    font-size: .8rem;
+    margin-bottom: 2rem;
+  }
+    /* catetory ends */
 }
